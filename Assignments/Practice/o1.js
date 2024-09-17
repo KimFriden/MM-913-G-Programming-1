@@ -33,7 +33,7 @@ Legg til en ny favorittrett til favorittMat-arrayen og skriv ut den oppdaterte l
 task(2, 'Arrays');
 let favFood = ["Pizza", "Sausage", "Tika masala"];
 console.log("0 og 1 Mat: ", favFood[0] + ",", favFood[2]);
-favFood =+ "Knekke brød";
+favFood.push("Knekke brød");
 
 for (i = 0; i < favFood.length; i++){
     console.log(favFood[i]);
